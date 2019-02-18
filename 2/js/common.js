@@ -20,7 +20,7 @@ function printColors(){
 		}
 
 		else{
-			if(valueInput>30){
+			if(valueInput>30 || valueInput<0){
 				alert('Write a number from 0 to 30');
 			}
 
