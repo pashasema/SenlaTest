@@ -9,8 +9,8 @@ function sheeps(){
 		if(isNaN(valueInput)){
 			alert('Write a number!');
 		}
-		else if(valueInput>30){
-			alert('Write a number from 0 to 30');
+		else if(valueInput<0){
+			alert('Write a positive number');
 		}
 		else{
 			for (let i = 1; i <= valueInput; i++) {
